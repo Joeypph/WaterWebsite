@@ -6,7 +6,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 150px;
 }
 .paragrah{
     font-family: 'Poppins', sans-serif;
@@ -16,6 +16,12 @@ body{
     background-color:#176287 ;
 }
 #box2{
-    margin-left: 80px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rowfront{
+    margin-top: 50px;
 }
 
