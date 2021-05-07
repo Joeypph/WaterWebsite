@@ -1,5 +1,6 @@
 body{
-    background-color: #41456C;
+    background-color:#41456C;
+
 }
 .container {
     height: 100%;
@@ -14,6 +15,7 @@ body{
 }
 #mas{
     background-color:#176287 ;
+    border-color: #176287;
 }
 #box2{
     margin-left: 60px;
@@ -24,4 +26,6 @@ body{
 #rowfront{
     margin-top: 50px;
 }
+#btn-primary{
 
+}
