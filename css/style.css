@@ -1,0 +1,21 @@
+body{
+    background-color: #41456C;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.paragrah{
+    font-family: 'Poppins', sans-serif;
+    color:#FDF7F7 ;
+}
+#mas{
+    background-color:#176287 ;
+}
+#box2{
+    margin-left: 80px;
+}
+
