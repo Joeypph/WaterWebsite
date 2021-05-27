@@ -29,29 +29,22 @@ body{
 .textos h1{
     font-size: 80px;
 }
-#mas{
+.mas{
     background-color:#176287 ;
     border-color: #176287;
 }
 .container{
-    width: 95%;
-    max-width: 1200px;
-    display: flex;
     align-items: center;
-    margin: auto;
     justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 header{
 height: auto;
 padding: 60px;
 width: 100%;
 }
-.img{
-    display: block;
-    height: 450px;
-    object-fit: cover;
-    width: auto;
-}
+
 .uno{
     clip-path: circle(0% at 0 0);
 }
@@ -77,16 +70,8 @@ width: 100%;
 .icono{
     z-index: 100;
 }
- @media screen and (max-width:1000px) {
-     .img{
-         height: 400px;
-     }
-     
- }
- @media screen and (max-width:1000px) {
-    .img{
-        height: 370px;
-    }
-    
-}
+header .intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+}  
 
