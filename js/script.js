@@ -2,7 +2,9 @@
 
     let button= document.getElementById("icono");
     let enlaces = document.getElementById("enlaces");
-    var esconder = document.getElementById("esconder");
+    let buttonInicio= document.getElementById("btnInicio");
+    let buttonHacerlo= document.getElementById("btnHacer");
+    let buttonContacto= document.getElementById("btnContacto");
     let contador=0;
     
     button.addEventListener("click",function(e){
@@ -16,13 +18,25 @@
             contador=0;
         }
     })
-    esconder.addEventListener('click', function() {
-        //alert('Hello world');
+
+    buttonInicio.addEventListener("click",function(){
+        alert("btn1")
         enlaces.classList.remove("dos")
         enlaces.className=("enlaces uno")
         contador=0;
-    });
+    })
 
+    buttonHacerlo.addEventListener("click",function(){
+        alert("hola2")
+        enlaces.classList.remove("dos")
+        enlaces.className=("enlaces uno")
+        contador=0;
+    })
 
+    buttonContacto.addEventListener("click",function(){
+        alert("hola3")
+        enlaces.classList.remove("dos")
+        enlaces.className=("enlaces uno")
+        contador=0;
+    })
 //})
-
