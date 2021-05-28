@@ -20,21 +20,18 @@
     })
 
     buttonInicio.addEventListener("click",function(){
-        alert("btn1")
         enlaces.classList.remove("dos")
         enlaces.className=("enlaces uno")
         contador=0;
     })
 
     buttonHacerlo.addEventListener("click",function(){
-        alert("hola2")
         enlaces.classList.remove("dos")
         enlaces.className=("enlaces uno")
         contador=0;
     })
 
     buttonContacto.addEventListener("click",function(){
-        alert("hola3")
         enlaces.classList.remove("dos")
         enlaces.className=("enlaces uno")
         contador=0;
