@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Water</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
             <a href="#" id="icono" class=" btn btn-primary icono mas">Men&uacute;</a>
             <div class=" enlaces uno " id="enlaces">
-                <a href="#" id="mas" class=" btn btn-primary btn-lg shadow-none" >Inicio</a>
-                <a href="#" id="mas" class=" btn btn-primary btn-lg shadow-none" >C&oacute;mo lo haremos</a>
-                <a href="#" id="mas" class=" btn btn-primary btn-lg shadow-none">Contacto</a>
+                <a href="#inicio" id="esconder" class=" btn btn-primary btn-lg shadow-none page-scroll "  >Inicio</a>
+                <a href="#hacerlo" id="esconder" class=" btn btn-primary btn-lg shadow-none page-scroll "  >C&oacute;mo lo haremos</a>
+                <a href="#contacto" id="esconder" class=" btn btn-primary btn-lg shadow-none page-scroll">Contacto</a>
             </div>
         </nav>
     </header>
-    <div class="padding">
+    <div class="padding" id="inicio">
         <div class="container">
             <div class ="row">
                 <div class="col-lg-6">
@@ -30,11 +31,25 @@
                 <div class="col-lg-6 text-center main">
                     <h1 class="paragrah">¿Agua en marte?</h1>
                     <p class="paragrah lead" >La mejor manera de llevar agua hasta all&aacute;</p>
-                    <button type="button" class="btn btn-primary btn-lg shadow-none" id="mas">Ver más</button>
+                    <a href="#hacerlo" id="mas " class=" btn btn-primary btn-lg shadow-none ">Ver m&aacute;s</a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="padding" id= "hacerlo">
+        <div class="container">
+            <div class ="row">
+                <div class="col-lg-6 text-center main">
+                    <h1 class="paragrah ">¿C&oacute;mo lo haremos? </h1>
+                    <p class="paragrah lead" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta nobis repellendus saepe quidem laudantium nemo ipsam? Aperiam beatae illum laudantium minima. Repellendus sit minima ducimus facilis illum commodi eum in.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="img/LAgua.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
